@@ -1,0 +1,144 @@
+.container {
+  background-color: #ffd569;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+.fruits-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-card {
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
+
+.fruits-heading-count {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-heading-count {
+    font-size: 35px;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+}
+
+.mango-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mango-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.mango-img {
+  height: 180px;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .mango-img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.banana-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .banana-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.banana-img {
+  height: 180px;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .banana-img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
+
+.count {
+  color: #ffd569;
+}
